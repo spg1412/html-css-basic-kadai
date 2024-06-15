@@ -7,8 +7,13 @@ h1 {
    padding: 20px
  }
 main {
-    padding: 10px;
-
+    main {
+    margin: 10px;
+}
+#parent {
+    justify-content: center;
+    justify-content: space-between;
+}
 }
 .flexbox-container {
     display: flex;
@@ -19,13 +24,11 @@ main {
     width: 70%;
 }
 .contents {
-    position: relative;
-    text-align:center;
-border: solid 3px rgb(238, 204, 204);
-flex-basis: 25%;
-padding: 10px 15px;
-width: 70%;
-margin: 10px 0px;
+    border: solid 3px rgb(238, 204, 204);
+    flex-basis: 25%;
+    padding: 10px, 15px;
+    margin: 20px, 0;
+    text-align: center;
 }
 h2::before {
     content: "●";
