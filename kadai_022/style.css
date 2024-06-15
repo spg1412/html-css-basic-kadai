@@ -1,0 +1,64 @@
+h1 {
+    position: relative;
+    text-align:center;
+    width: auto;
+   background-color: rgb(244, 79, 79);    
+   color: rgb(255, 255, 255);
+   padding: 20px
+ }
+main {
+    padding: 10px;
+
+}
+.flexbox-container {
+    display: flex;
+}
+.contents {
+    position: relative;
+    text-align:center;
+border: solid 3px rgb(238, 204, 204);
+flex-basis: 25%;
+padding: 10px 15px;
+width: 70%;
+margin: 10px 0px;
+}
+h2::before {
+    content: "●";
+    color: rgb(239, 111, 139);
+}
+    
+h2 {
+    font-size: 25px;
+    border-bottom: dotted 3px rgb(236, 122, 122);
+}
+p:nth-child(3)::first-letter {
+    color: rgb(97, 206, 249);
+    font-weight: bold;
+}
+footer {
+    background-color: rgb(244, 79, 79);
+    position: relative;
+    text-align:center;
+}
+a:visited {
+    color: rgb(193, 234, 251);
+}
+a:hover {
+    color: rgb(245, 178, 168);
+}
+@media screen and (max-width: 768px) {
+    div {
+        display: block;
+        h2 {
+            font-size: 30px;
+        }
+            p{
+                font-size: 25px;
+            }
+            .contents {
+                div {
+                    display: block;
+                }
+            }
+            }
+    }
