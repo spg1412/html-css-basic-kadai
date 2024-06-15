@@ -47,18 +47,20 @@ a:hover {
     color: rgb(245, 178, 168);
 }
 @media screen and (max-width: 768px) {
-    div {
-        flex-direction: column;;
-        h2 {
-            font-size: 30px;
-        }
-            p{
-                font-size: 25px;
-            }
-            .contents {
-                div {
-                    flex-direction: column;
-                }
-            }
-            }
+    #parent {
+      flex-direction: column;
     }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    p {
+      font-size: 25px;
+    }
+  
+    .contents:not(:first-child)p {
+      font-weight: bold;
+      color: rgb(97, 206, 249);
+    }
+  }
