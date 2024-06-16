@@ -48,6 +48,10 @@ footer {
     position: relative;
     text-align:center;
 }
+/* added */
+a {
+    color: rgb(255, 255, 255);
+}
 a:visited {
     color: rgb(193, 234, 251);
 }
@@ -64,7 +68,7 @@ a:hover {
     }
   
     p {
-      font-size: 25px; /* ここを修正 */
+      font-size: 25px; 
     }
   
     .contents:not(:first-child)p {
